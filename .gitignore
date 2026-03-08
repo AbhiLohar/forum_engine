@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# ChromaDB / Vector Storage
+# We usually ignore the local database folder and let the user re-index
+vector_storage/
+
+# OS specific
+.DS_Store
+Thumbs.db
